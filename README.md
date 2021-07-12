@@ -1,6 +1,8 @@
 # 91porn
 91pron爬虫
-爬虫部分代码主要来自https://github.com/jakehu/91porn 感谢jakehu大神
+
+
+爬虫部分代码主要来自https://github.com/jakehu/91porn 感谢jakehu
 m3u8下载软件主要代码来自https://github.com/magicdmer/M3U8-Downloader 感谢magicdmer
 
 由于我也是新手，在使用jakehu大神的成品时发现可以获取网页链接但是没法获取视频的下载地址，不知道是我不会用还是获取视频下载地址的方式已经失效了，于是就基于他的代码进行了修改，去除了redis的依赖，直接把链接写入到文件里了，这样虽然效率低了，但是用起来简单了很多也没什么问题。M3U8下载器部分则是对magicdmer大神的代码进行了修改，把原本的手动输入下载链接改为从文件里获取，并且支持标题。真正完全由本人写的部分只有downloadm3u8.py
